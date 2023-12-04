@@ -1,0 +1,86 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/Ilorin1.jpg");
+    background: cover;
+    padding: 20px 0 60px 0;
+}
+
+.hero-heading{
+    font-size: 30px;
+    background: #56341b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #f1c373;
+    margin: 20px auto 0 aouto;
+}
+
+.hero-subheading{
+    font-size: 24px;
+    background: #8a5a44;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #f1c373;
+    margin:0 auto 40px auto;
+}
+
+
+.activities-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddb892;
+    color: #56341b;
+    padding: 20px;
+    margin-bottom: 50px  
+}
+
+#top3{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ddb892;
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
+    margin: 20px auto;
+    text-align: center;
+    background: #56341b;
+    color: #f1c373;
+    box-shadow: 6px 6px #f1c373;
+    border-radius: 5px;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+
+
